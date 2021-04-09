@@ -54,7 +54,42 @@ COCO_LABEL_MAP = { 1:  1,  2:  2,  3:  3,  4:  4,  5:  5,  6:  6,  7:  7,  8:  8
                   74: 65, 75: 66, 76: 67, 77: 68, 78: 69, 79: 70, 80: 71, 81: 72,
                   82: 73, 84: 74, 85: 75, 86: 76, 87: 77, 88: 78, 89: 79, 90: 80}
 
+FOOD_CLASSES = ('water', 'pear', 'egg', 'grapes', 'butter', 'bread-white', 'jam', 'bread-whole-wheat', 'apple', 'tea-green', 'white-coffee-with-caffeine', 'tea-black', 'mixed-salad-chopped-without-sauce', 'cheese', 
+'tomato-sauce', 'pasta-spaghetti', 'carrot', 'onion', 'beef-cut-into-stripes-only-meat', 'rice-noodles-vermicelli', 'salad-leaf-salad-green', 'bread-grain', 'espresso-with-caffeine', 'banana', 'mixed-vegetables', 
+'bread-wholemeal', 'savoury-puff-pastry', 'wine-white', 'dried-meat', 'fresh-cheese', 'red-radish', 'hard-cheese', 'ham-raw', 'bread-fruit', 'oil-vinegar-salad-dressing', 'tomato', 'cauliflower','potato-gnocchi', 
+'wine-red', 'sauce-cream', 'pasta-linguini-parpadelle-tagliatelle', 'french-beans', 'almonds', 'dark-chocolate', 'mandarine', 'semi-hard-cheese', 'croissant', 'sushi', 'berries', 'biscuits', 'thickened-cream-35', 
+'corn', 'celeriac', 'alfa-sprouts', 'chickpeas', 'leaf-spinach', 'rice', 'chocolate-cookies', 'pineapple', 'tart', 'coffee-with-caffeine', 'focaccia', 'pizza-with-vegetables-baked', 'soup-vegetable', 'bread-toast', 
+'potatoes-steamed', 'spaetzle', 'frying-sausage', 'lasagne-meat-prepared', 'boisson-au-glucose-50g', 'ma1-4esli', 'peanut-butter', 'chips-french-fries', 'mushroom', 'ratatouille', 'veggie-burger', 'country-fries', 
+'yaourt-yahourt-yogourt-ou-yoghourt-natural', 'hummus', 'fish', 'beer', 'peanut', 'pizza-margherita-baked', 'pickle', 'ham-cooked', 'cake-chocolate', 'bread-french-white-flour', 'sauce-mushroom', 'rice-basmati', 
+'soup-of-lentils-dahl-dhal', 'pumpkin', 'witloof-chicory', 'vegetable-au-gratin-baked', 'balsamic-salad-dressing', 'pasta-penne', 'tea-peppermint', 'soup-pumpkin', 'quiche-with-cheese-baked-with-puff-pastry', 'mango', 
+'green-bean-steamed-without-addition-of-salt', 'cucumber', 'bread-half-white', 'pasta', 'beef-filet', 'pasta-twist', 'pasta-wholemeal', 'walnut', 'soft-cheese', 'salmon-smoked', 'sweet-pepper', 'sauce-soya', 'chicken-breast', 
+'rice-whole-grain', 'bread-nut', 'green-olives', 'roll-of-half-white-or-white-flour-with-large-void', 'parmesan', 'cappuccino', 'flakes-oat', 'mayonnaise', 'chicken', 'cheese-for-raclette', 'orange', 'goat-cheese-soft', 
+'tuna', 'tomme', 'apple-pie', 'rosti', 'broccoli', 'beans-kidney', 'white-cabbage', 'ketchup', 'salt-cake-vegetables-filled', 'pistachio', 'feta', 'salmon', 'avocado', 'sauce-pesto', 'salad-rocket', 'pizza-with-ham-baked', 
+'gruya-re', 'ristretto-with-caffeine', 'risotto-without-cheese-cooked', 'crunch-ma1-4esli', 'braided-white-loaf', 'peas', 'chicken-curry-cream-coconut-milk-curry-spices-paste', 'bolognaise-sauce', 'bacon-frying', 'salami', 
+'lentils', 'mushrooms', 'mashed-potatoes-prepared-with-full-fat-milk-with-butter', 'fennel', 'chocolate-mousse', 'corn-crisps', 'sweet-potato', 'bircherma1-4esli-prepared-no-sugar-added', 'beetroot-steamed-without-addition-of-salt', 
+'sauce-savoury', 'leek', 'milk', 'tea', 'fruit-salad', 'bread-rye', 'salad-lambs-ear', 'potatoes-au-gratin-dauphinois-prepared', 'red-cabbage', 'praline', 'bread-black', 'black-olives', 'mozzarella', 'bacon-cooking', 'pomegranate', 
+'hamburger-bread-meat-ketchup', 'curry-vegetarian', 'honey', 'juice-orange', 'cookies', 'mixed-nuts', 'breadcrumbs-unspiced', 'chicken-leg', 'raspberries', 'beef-sirloin-steak', 'salad-dressing', 'shrimp-prawn-large', 'sour-cream', 
+'greek-salad', 'sauce-roast', 'zucchini', 'greek-yaourt-yahourt-yogourt-ou-yoghourt', 'cashew-nut', 'meat-terrine-pata-c', 'chicken-cut-into-stripes-only-meat', 'couscous', 'bread-wholemeal-toast', 'craape-plain', 'bread-5-grain', 
+'tofu', 'water-mineral', 'ham-croissant', 'juice-apple', 'falafel-balls', 'egg-scrambled-prepared', 'brioche', 'bread-pita', 'pasta-haprnli', 'blue-mould-cheese', 'vegetable-mix-peas-and-carrots', 'quinoa', 'crisps', 'beef', 
+'butter-spread-puree-almond', 'beef-minced-only-meat', 'hazelnut-chocolate-spread-nutella-ovomaltine-caotina', 'chocolate', 'nectarine', 'ice-tea', 'applesauce-unsweetened-canned', 'syrup-diluted-ready-to-drink', 'sugar-melon', 
+'bread-sourdough', 'rusk-wholemeal', 'gluten-free-bread', 'shrimp-prawn-small', 'french-salad-dressing', 'pancakes', 'milk-chocolate', 'pork', 'dairy-ice-cream', 'guacamole', 'sausage', 'herbal-tea', 'fruit-coulis', 'water-with-lemon-juice', 
+'brownie', 'lemon', 'veal-sausage', 'dates', 'roll-with-pieces-of-chocolate', 'taboula-c-prepared-with-couscous', 'croissant-with-chocolate-filling', 'eggplant', 'sesame-seeds', 'cottage-cheese', 'fruit-tart', 'cream-cheese', 'tea-verveine', 
+'tiramisu', 'grits-polenta-maize-flour', 'pasta-noodles', 'artichoke', 'blueberries', 'mixed-seeds', 'caprese-salad-tomato-mozzarella', 'omelette-plain', 'hazelnut', 'kiwi', 'dried-raisins', 'kolhrabi', 'plums', 'beetroot-raw', 'cream', 
+'fajita-bread-only', 'apricots', 'kefir-drink', 'bread', 'strawberries', 'wine-rosa-c', 'watermelon-fresh', 'green-asparagus', 'white-asparagus', 'peach')
 
+FOOD_LABEL_MAP = {2578: 1, 1157: 2, 2022: 3, 1198: 4, 2053: 5, 1566: 6, 2099: 7, 1554: 8, 1151: 9, 2530: 10, 2521: 11, 2534: 12, 1026: 13, 1311: 14, 2738: 15, 1505: 16, 1078: 17, 1116: 18, 1731: 19, 1453: 20, 1040: 21, 1538: 22, 
+2504: 23, 1154: 24, 1022: 25, 1565: 26, 2895: 27, 2620: 28, 1853: 29, 1300: 30, 1074: 31, 1310: 32, 1893: 33, 1533: 34, 2747: 35, 1069: 36, 1084: 37, 1009: 38, 2618: 39, 2730: 40, 1490: 41, 1058: 42, 1210: 43, 2131: 44, 1180: 45, 
+1308: 46, 1588: 47, 2944: 48, 1156: 49, 2388: 50, 1384: 51, 1108: 52, 1082: 53, 1126: 54, 1143: 55, 1032: 56, 1468: 57, 2413: 58, 1150: 59, 2350: 60, 2512: 61, 1587: 62, 633: 63, 2836: 64, 1560: 65, 1010: 66, 1482: 67, 1831: 68, 
+2934: 69, 3080: 70, 1670: 71, 1203: 72, 1013: 73, 1098: 74, 1024: 75, 1942: 76, 1007: 77, 5641: 78, 2952: 79, 1956: 80, 2634: 81, 1214: 82, 2939: 83, 1060: 84, 1889: 85, 2303: 86, 1520: 87, 2729: 88, 1469: 89, 3358: 90, 1065: 91, 
+1033: 92, 3532: 93, 2742: 94, 1496: 95, 2562: 96, 2841: 97, 732: 98, 1181: 99, 387: 100, 1061: 101, 1536: 102, 1483: 103, 1728: 104, 1506: 105, 1513: 106, 1212: 107, 1352: 108, 2973: 109, 1068: 110, 2807: 111, 1789: 112, 1478: 113, 
+1545: 114, 1228: 115, 1569: 116, 1323: 117, 2501: 118, 1422: 119, 2750: 120, 1788: 121, 1327: 122, 1187: 123, 6404: 124, 1980: 125, 1348: 126, 2237: 127, 1014: 128, 1085: 129, 1138: 130, 1094: 131, 2734: 132, 2923: 133, 1221: 134, 
+1294: 135, 1967: 136, 1056: 137, 2728: 138, 1038: 139, 630: 140, 1307: 141, 2524: 142, 2970: 143, 1627: 144, 1607: 145, 1107: 146, 3100: 147, 2736: 148, 1915: 149, 1879: 150, 1144: 151, 1102: 152, 2935: 153, 1119: 154, 2961: 155, 
+2898: 156, 1004: 157, 3220: 158, 50: 159, 2711: 160, 1113: 161, 1237: 162, 2498: 163, 1166: 164, 1551: 165, 1050: 166, 3115: 167, 1092: 168, 2073: 169, 1557: 170, 1229: 171, 1321: 172, 1916: 173, 1152: 174, 2930: 175, 3630: 176, 
+2103: 177, 2454: 178, 2376: 179, 1220: 180, 1614: 181, 1794: 182, 1170: 183, 1727: 184, 2741: 185, 1986: 186, 1383: 187, 2954: 188, 2714: 189, 1070: 190, 3332: 191, 1213: 192, 1919: 193, 1793: 194, 1455: 195, 1561: 196, 2269: 197, 
+1523: 198, 1948: 199, 2580: 200, 2920: 201, 2446: 202, 2873: 203, 3042: 204, 1568: 205, 1547: 206, 1487: 207, 1280: 208, 1019: 209, 1467: 210, 2905: 211, 1724: 212, 3249: 213, 1730: 214, 2172: 215, 2134: 216, 1186: 217, 2470: 218, 
+727: 219, 2495: 220, 1184: 221, 1556: 222, 1620: 223, 3306: 224, 1985: 225, 2743: 226, 2949: 227, 2132: 228, 1748: 229, 1402: 230, 2749: 231, 1924: 232, 2555: 233, 3308: 234, 3262: 235, 2254: 236, 1200: 237, 1856: 238, 1162: 239, 
+1580: 240, 2967: 241, 2362: 242, 1055: 243, 1223: 244, 1264: 245, 2278: 246, 1328: 247, 2543: 248, 1371: 249, 1463: 250, 1494: 251, 1054: 252, 1169: 253, 1209: 254, 2964: 255, 2320: 256, 1215: 257, 1176: 258, 1199: 259, 1089: 260, 
+1191: 261, 1075: 262, 1376: 263, 3221: 264, 1153: 265, 1249: 266, 1522: 267, 1163: 268, 2616: 269, 578: 270, 1123: 271, 1124: 272, 1190: 273}
 
 # ----------------------- CONFIG CLASS ----------------------- #
 
@@ -184,12 +219,13 @@ cig_butts_dataset = dataset_base.copy({
 
 food_dataset = dataset_base.copy({
   'name': 'Food',
-  'train_info': 'data/food/train/coco_annotations.json',
-  'train_images': 'data/food/train/images/',
-  'valid_info': 'data/food/val/coco_annotations.json',
-  'valid_images': 'data/food/val/images/',
-  'class_names': ('food'),
-  'label_map': { 1:  1 }
+  'train_info': './data/food/train/coco_annotations.json',
+  'train_images': './data/food/train/images/',
+  'valid_info': './data/food/val/coco_annotations.json',
+  'valid_images': './data/food/val/images/',
+  'has_gt': True,
+  'class_names': FOOD_CLASSES,
+  'label_map': FOOD_LABEL_MAP
 })
 
 
@@ -435,7 +471,7 @@ coco_base_config = Config({
     'dataset': coco2014_dataset,
     'num_classes': 81, # This should include the background class
 
-    'max_iter': 400000,
+    'max_iter': 400000, # default 400000
 
     # The maximum number of detections for evaluation
     'max_num_detections': 100,
@@ -795,15 +831,24 @@ yolact_resnet50_cig_butts_config = yolact_resnet50_config.copy({
 })
 
 yolact_resnet50_food_config = yolact_resnet50_config.copy({
-    'name': 'yolact_plus_resnet50_food',
+    'name': 'yolact_resnet50_food',
     # Dataset stuff
     'dataset': food_dataset,
     'num_classes': len(food_dataset.class_names) + 1,
 
     # Image Size
     'max_size': 512,
-})
 
+    # dw' = momentum * dw - lr * (grad + decay * w)
+    'lr': 1e-3,
+    'momentum': 0.9,
+    'decay': 5e-4,
+
+    # For each lr step, what to multiply the lr with
+    'gamma': 0.1,
+    'lr_steps': (1800, 3600, 4000),
+    'max_iter': 20000, # default 400000
+})
 # ----------------------- YOLACT++ CONFIGS ----------------------- #
 
 yolact_plus_base_config = yolact_base_config.copy({
